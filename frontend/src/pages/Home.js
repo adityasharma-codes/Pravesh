@@ -22,7 +22,7 @@ function Home() {
     }
     const fetchProducts = async () => {
         try {
-            const url = "https://pravesh-api.vercel.app//products";
+            const url = "https://pravesh-api.vercel.app/products";
             const headers  = {
              headers:{
                 'authorization':  localStorage.getItem('token')
