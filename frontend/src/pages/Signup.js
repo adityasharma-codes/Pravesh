@@ -32,7 +32,7 @@ function Signup() {
     }
     
     try {
-        const url = "http://localhost:8080/auth/signUp";
+        const url = "https://pravesh-api.vercel.app/auth/signUp";
         const response = await fetch(url, {
             method: "POST",
             headers: {
